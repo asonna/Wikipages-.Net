@@ -25,6 +25,7 @@ Create new project:
             PlaceHolder for View
           }
         <h2> Page title</h2>**
+        
 __________________________________
 
 Create database:
