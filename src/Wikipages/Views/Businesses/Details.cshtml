@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model Wikipages.Models.Business
+
+<html>
+<head>
+    <title>Wikipages - Details</title>
+</head>
+<body>
+    <h2>Details</h2>
+    <hr />
+    @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
+    <p>@Html.ActionLink("Back to list", "Index")</p>
+</body>
+</html>
