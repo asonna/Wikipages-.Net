@@ -1,25 +1,25 @@
 Create new project:
 
-  In package.json, add under dependencies:
+  - In package.json, add under dependencies:
   	**"Microsoft.AspNetCore.Mvc": "1.0.0"**
 
-  Under startup.cs, add under " public void ConfigureServices(IServiceCollection services)"
+  - Under startup.cs, add under " public void ConfigureServices(IServiceCollection services)"
   	**{
               services.AddMvc();
           }**
-  Then add under " public void Configure(IApplicationBuilder app)"
+  - Then add under " public void Configure(IApplicationBuilder app)"
   	**app.UseMvc(routes =>
           {
               routes.MapRoute(
                   name: "default",
                   template: "{controller=Home}/{action=Index}/{id?}");
           });**
-  Create a new folder called **Controllers**
-  Inside Controllers folder, create a file called **HomeControllers**
+  - Create a new folder called **Controllers**
+  - Inside Controllers folder, create a file called **HomeControllers**
 
-  Add new folder called **View**
-  Inside Views folder, add another folder called **Home**
-  Inside Views/Home, create a file named **Index.cshtml** and enter in the following content:
+  - Add new folder called **View**
+  - Inside Views folder, add another folder called **Home**
+  - Inside Views/Home, create a file named **Index.cshtml** and enter in the following content:
       **@
           {
             PlaceHolder for View
