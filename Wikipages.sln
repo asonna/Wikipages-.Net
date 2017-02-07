@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F7445099-3DF8-4438-8BCE-55E1C1B84CF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8E32E08E-80D1-4D9B-9D2C-4C4CC55A2729}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Wikipages", "src\Wikipages\Wikipages.xproj", "{BF2F3A3E-277C-450A-8AC9-C2A357D96245}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF2F3A3E-277C-450A-8AC9-C2A357D96245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2F3A3E-277C-450A-8AC9-C2A357D96245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2F3A3E-277C-450A-8AC9-C2A357D96245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2F3A3E-277C-450A-8AC9-C2A357D96245}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF2F3A3E-277C-450A-8AC9-C2A357D96245} = {F7445099-3DF8-4438-8BCE-55E1C1B84CF8}
+	EndGlobalSection
+EndGlobal
